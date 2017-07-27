@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51958E4D1F295AAD007D9F18 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51958E4C1F295AAD007D9F18 /* UserInfo.swift */; };
 		51CFC6781F26AE6C004EF710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CFC6771F26AE6C004EF710 /* AppDelegate.swift */; };
-		51CFC67A1F26AE6C004EF710 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CFC6791F26AE6C004EF710 /* ViewController.swift */; };
 		51CFC67D1F26AE6C004EF710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51CFC67B1F26AE6C004EF710 /* Main.storyboard */; };
 		51CFC67F1F26AE6C004EF710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51CFC67E1F26AE6C004EF710 /* Assets.xcassets */; };
 		51CFC6821F26AE6C004EF710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51CFC6801F26AE6C004EF710 /* LaunchScreen.storyboard */; };
+		51CFC68A1F26AED8004EF710 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CFC6891F26AED8004EF710 /* WelcomeViewController.swift */; };
+		51CFC68C1F26AF09004EF710 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CFC68B1F26AF09004EF710 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51958E4C1F295AAD007D9F18 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		51CFC6741F26AE6C004EF710 /* SignUpForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignUpForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51CFC6771F26AE6C004EF710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		51CFC6791F26AE6C004EF710 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		51CFC67C1F26AE6C004EF710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51CFC67E1F26AE6C004EF710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51CFC6811F26AE6C004EF710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51CFC6831F26AE6C004EF710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51CFC6891F26AED8004EF710 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		51CFC68B1F26AF09004EF710 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				51CFC6771F26AE6C004EF710 /* AppDelegate.swift */,
-				51CFC6791F26AE6C004EF710 /* ViewController.swift */,
 				51CFC67B1F26AE6C004EF710 /* Main.storyboard */,
 				51CFC67E1F26AE6C004EF710 /* Assets.xcassets */,
 				51CFC6801F26AE6C004EF710 /* LaunchScreen.storyboard */,
 				51CFC6831F26AE6C004EF710 /* Info.plist */,
+				51CFC6891F26AED8004EF710 /* WelcomeViewController.swift */,
+				51CFC68B1F26AF09004EF710 /* SignUpViewController.swift */,
+				51958E4C1F295AAD007D9F18 /* UserInfo.swift */,
 			);
 			path = SignUpForm;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51CFC67A1F26AE6C004EF710 /* ViewController.swift in Sources */,
+				51958E4D1F295AAD007D9F18 /* UserInfo.swift in Sources */,
+				51CFC68C1F26AF09004EF710 /* SignUpViewController.swift in Sources */,
 				51CFC6781F26AE6C004EF710 /* AppDelegate.swift in Sources */,
+				51CFC68A1F26AED8004EF710 /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +310,7 @@
 				51CFC6881F26AE6C004EF710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
